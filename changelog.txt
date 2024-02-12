@@ -1,0 +1,55 @@
+v.2.00
+2023-04-01
+
+Мод переделан под библиотеку tsarslib 2.0.
+
+Вот и настал этот страшный день. Если вы пришли на эту страницу полные ненавести из-за того, что у вас пропал весь обвес с вашего автомобиля, я спешу вас успокоить: "Больше его не вернуть". Произошло это из-за миграции мода на новую библиотеку tsarslib. Теперь подход к тюнингу полностью изменился и вам больше не нужно будет создавать отдельные предметы для каждого автомобиля и знать сотни рецептов, в которых сложно ориентироваться.
+
+Теперь для вызова меню тюнинга воспользуйтесь клавишей «V», стоя рядом с автомобилем, и выберите пункт «Модификации» (иконка разводного ключа с плюсиком).
+
+Информацию о планируемом обновлении я публиковал в комментариях к этому моду и в своём Discord: https://discord.gg/xkCEcwGZMW
+Я сожалею, если она не дошла до вас.
+
+
+Mod re-designed for tsarslib 2.0.
+
+So the dreaded day has come. If you've come to this page full of hate because you've lost all the items from your car, I can reassure you straight away: "There's no getting it back again". This is due to the migration of the mod to the new tsarslib library. Now the approach to tuning has completely changed and you no longer need to create separate items for each car and know hundreds of recipes that are difficult to navigate.
+
+Now to access the tuning menu, use the "V" key while standing beside the car and select "Modifications" (the dash key icon with the plus sign).
+
+I posted information about the planned update in the comments to this mod and on my Discord: https://discord.gg/xkCEcwGZMW
+I'm sorry if it didn't get to you.
+
+-------------------
+v.1.02
+2022-03-21
+
+Улучшено поведение полностью загруженного прицепа. 
+
+Improved behavior of a fully loaded trailer.
+
+-------------------
+
+v.1.01
+2022-03-21
+
+Добавлен спавн журналов.
+Грузовикам добавлена точка для крепления обычных прицепов.
+Исправлена физика грузовика с удлинённой рамой.
+Добавлена текстура с маской для прицепа.
+Исправлены переводы.
+
+Added magazine spawns.
+Added point for trucks to attach normal trailers.
+Fixed physics of truck with extended frame.
+Added a texture with a mask for the trailer.
+Fixed translations.
+
+-------------------
+
+v.1.0
+2022-03-21
+
+Релиз
+
+Release
