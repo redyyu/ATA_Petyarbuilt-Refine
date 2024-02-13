@@ -37,7 +37,7 @@ NewCarTuningTable["ATAPetyarbuilt"].parts["ATA2ProtectionWheelsFront"] = {
             },
             recipes = {carRecipe},
             requireInstalled = {"TireFrontLeft", "TireFrontRight"},
-            time = 65,
+            time = 40, 
         },
         uninstall = {
             sound = "ATA2InstallWheelChain",
@@ -54,6 +54,116 @@ NewCarTuningTable["ATAPetyarbuilt"].parts["ATA2ProtectionWheelsFront"] = {
         }
     }
 }
+
+NewCarTuningTable["ATAPetyarbuilt"].parts["ATA2RoofLightFront"] = {
+    ATAProtection = {
+        icon = "media/ui/tuning2/roof_light.png",
+        category = "Visual",
+        install = {
+            area = "Engine",
+            use = { 
+                ATARoofLightItem = 1,
+                Screws = 4,
+            },
+            tools = { 
+                primary = "Base.Screwdriver",
+            },
+            skills = {
+                Mechanics = 4,
+            },
+            recipes = {carRecipe},
+            requireInstalled = {"ATA2ProtectionSideTop"},
+            time = 30,
+        },
+        uninstall = {
+            area = "Engine",
+            tools = {
+                primary = "Base.Screwdriver",
+            },
+            skills = {
+                Mechanics = 4,
+            },
+            result = {
+                ATARoofLightItem = 1,
+            },
+            time = 30,
+        }
+    }
+}
+
+NewCarTuningTable["ATAPetyarbuilt"].parts["ATA2RoofLightLeft"] = {
+    ATAProtection = {
+        icon = "media/ui/tuning2/roof_light.png",
+        category = "Visual",
+        install = {
+            area = "SeatFrontLeft",
+            use = { 
+                ATARoofLightItem = 1,
+                Screws = 4,
+            },
+            tools = { 
+                primary = "Base.Screwdriver",
+            },
+            skills = {
+                Mechanics = 4,
+            },
+            recipes = {carRecipe},
+            requireInstalled = {"ATA2ProtectionSideTop"},
+            time = 30,
+        },
+        uninstall = {
+            area = "SeatFrontLeft",
+            tools = {
+                primary = "Base.Screwdriver",
+            },
+            skills = {
+                Mechanics = 4,
+            },
+            result = {
+                ATARoofLightItem = 1,
+            },
+            time = 30,
+        }
+    }
+}
+
+
+NewCarTuningTable["ATAPetyarbuilt"].parts["ATA2RoofLightRight"] = {
+    ATAProtection = {
+        icon = "media/ui/tuning2/roof_light.png",
+        category = "Visual",
+        install = {
+            area = "SeatFrontRight",
+            use = { 
+                ATARoofLightItem = 1,
+                Screws = 4,
+            },
+            tools = { 
+                primary = "Base.Screwdriver",
+            },
+            skills = {
+                Mechanics = 4,
+            },
+            recipes = {carRecipe},
+            requireInstalled = {"ATA2ProtectionSideTop"},
+            time = 30,
+        },
+        uninstall = {
+            area = "SeatFrontRight",
+            tools = {
+                primary = "Base.Screwdriver",
+            },
+            skills = {
+                Mechanics = 4,
+            },
+            result = {
+                ATARoofLightItem = 1,
+            },
+            time = 30,
+        }
+    }
+}
+
 
 NewCarTuningTable["ATAPetyarbuilt"].parts["ATA2ProtectionRearWheels"] = {
     Default = {

@@ -733,8 +733,8 @@ module Base
             }
         }
         
-        template = ATARoofLights/part/ATARoofLightFront,
-        part ATARoofLightFront
+        template = ATA2RoofLights/part/ATA2RoofLightFront,
+        part ATA2RoofLightFront
         {
             model Default
             {
@@ -746,17 +746,17 @@ module Base
             }
         }
         
-        template = ATARoofLights/part/ATARoofLightLeft,
-        template = ATARoofLights/part/ATARoofLightRight,
+        template = ATA2RoofLights/part/ATA2RoofLightLeft,
+        template = ATA2RoofLights/part/ATA2RoofLightRight,
         
-        part ATARoofLightLeft
+        part ATA2RoofLightLeft
         {
             table install
             {
                 requireInstalled = ATA2ProtectionSideTop,
             }
         }
-        part ATARoofLightRight
+        part ATA2RoofLightRight
         {
             table install
             {
@@ -770,9 +770,9 @@ module Base
             zoffset = 1.0000,
         }
         
-        template = ATARoofLights/part/ATARoofLampFront,
-        template = ATARoofLights/part/ATARoofLampLeft,
-        template = ATARoofLights/part/ATARoofLampRight,
+        template = ATA2RoofLights/part/ATA2RoofLampFront,
+        template = ATA2RoofLights/part/ATA2RoofLampLeft,
+        template = ATA2RoofLights/part/ATA2RoofLampRight,
         
         template = PassengerSeat2,
 
@@ -962,7 +962,7 @@ module Base
             }
         }
 
-        part ATARoofLightLeft
+        part ATA2RoofLightLeft
         {
             model Default
             {
@@ -970,7 +970,7 @@ module Base
             }
         }
 
-        part ATARoofLightRight
+        part ATA2RoofLightRight
         {
             model Default
             {
@@ -978,7 +978,7 @@ module Base
             }
         }
 
-        part ATARoofLightLeft
+        part ATA2RoofLightLeft
         {
             table install
             {
@@ -986,7 +986,7 @@ module Base
             }
         }
 
-        part ATARoofLightRight
+        part ATA2RoofLightRight
         {
             table install
             {
