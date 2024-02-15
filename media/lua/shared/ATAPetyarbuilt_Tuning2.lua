@@ -35,7 +35,7 @@ NewCarTuningTable["ATAPetyarbuilt"].parts["ATA2ProtectionWheelsFront"] = {
             skills = {
                 Mechanics = 3,
             },
-            recipes = {carRecipe},
+            recipes = {"Basic Tuning"},
             requireInstalled = {"TireFrontLeft", "TireFrontRight"},
             time = 65,
         },
@@ -78,7 +78,7 @@ NewCarTuningTable["ATAPetyarbuilt"].parts["ATA2ProtectionRearWheels"] = {
                 MetalWelding = 5,
             },
             requireInstalled = {"TireMiddleLeft", "TireMiddleRight", "TireRearLeft", "TireRearRight"},
-            recipes = {carRecipe},
+            recipes = {"Intermediate Mechanics", carRecipe},
             time = 60,
         },
         uninstall = {
@@ -94,6 +94,7 @@ NewCarTuningTable["ATAPetyarbuilt"].parts["ATA2ProtectionRearWheels"] = {
             skills = {
                 MetalWelding = 2,
             },
+            recipes = {"Intermediate Mechanics"},
             result = "auto",
             time = 30,
         }
@@ -123,7 +124,7 @@ NewCarTuningTable["ATAPetyarbuilt"].parts["ATA2ProtectionSideLeft"] = {
             skills = {
                 MetalWelding = 6,
             },
-            recipes = {carRecipe},
+            recipes = {"Intermediate Mechanics", carRecipe},
             requireInstalled = {"WindowFrontLeft"},
             time = 120,
         },
@@ -140,6 +141,7 @@ NewCarTuningTable["ATAPetyarbuilt"].parts["ATA2ProtectionSideLeft"] = {
                 MetalWelding = 4,
             },
             requireUninstalled = {"ATA2ProtectionSideFront", "ATA2ProtectionSideTop"},
+            recipes = {"Intermediate Mechanics"},
             result = "auto",
             time = 60,
         }
@@ -175,7 +177,7 @@ NewCarTuningTable["ATAPetyarbuilt"].parts["ATA2ProtectionSideFront"] = {
             skills = {
                 MetalWelding = 6,
             },
-            recipes = {carRecipe},
+            recipes = {"Intermediate Mechanics", carRecipe},
             requireInstalled = {"ATA2ProtectionSideRight", "ATA2ProtectionSideLeft"},
             time = 120,
         },
@@ -193,6 +195,7 @@ NewCarTuningTable["ATAPetyarbuilt"].parts["ATA2ProtectionSideFront"] = {
                 MetalWelding = 4,
             },
             requireUninstalled = {"ATA2ProtectionSideTop"},
+            recipes = {"Intermediate Mechanics"},
             result = "auto",
             time = 60,
         }
@@ -219,7 +222,7 @@ NewCarTuningTable["ATAPetyarbuilt"].parts["ATA2ProtectionSideTop"] = {
             skills = {
                 MetalWelding = 7,
             },
-            recipes = {carRecipe},
+            recipes = {"Intermediate Mechanics", carRecipe},
             requireInstalled = {"ATA2ProtectionSideFront"},
             time = 90,
         },
@@ -236,6 +239,7 @@ NewCarTuningTable["ATAPetyarbuilt"].parts["ATA2ProtectionSideTop"] = {
                 MetalWelding = 4,
             },
             requireUninstalled = {"ATA2RoofLightFront", "ATA2RoofLightLeft", "ATA2RoofLightRight"},
+            recipes = {"Intermediate Mechanics"},
             result = "auto",
             time = 45,
         }
@@ -264,7 +268,7 @@ NewCarTuningTable["ATAPetyarbuilt"].parts["ATA2ProtectionGasTank"] = {
                 MetalWelding = 5,
             },
             requireInstalled = {"GasTank"},
-            recipes = {carRecipe},
+            recipes = {"Intermediate Mechanics", carRecipe},
             time = 60,
         },
         uninstall = {
@@ -279,6 +283,7 @@ NewCarTuningTable["ATAPetyarbuilt"].parts["ATA2ProtectionGasTank"] = {
             skills = {
                 MetalWelding = 2,
             },
+            recipes = {"Intermediate Mechanics"},
             result = "auto",
             time = 30,
         }
@@ -307,7 +312,7 @@ NewCarTuningTable["ATAPetyarbuilt"].parts["ATA2ProtectionSleeper"] = {
                 MetalWelding = 7,
             },
             requireInstalled = {"WindowRearLeft", "WindowRearRight", "GasTank",},
-            recipes = {carRecipe},
+            recipes = {"Intermediate Mechanics", carRecipe},
             time = 150,
         },
         uninstall = {
@@ -322,6 +327,7 @@ NewCarTuningTable["ATAPetyarbuilt"].parts["ATA2ProtectionSleeper"] = {
             skills = {
                 MetalWelding = 4,
             },
+            recipes = {"Intermediate Mechanics"},
             result = "auto",
             time = 70,
         }
