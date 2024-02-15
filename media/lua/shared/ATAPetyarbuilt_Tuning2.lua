@@ -26,6 +26,7 @@ NewCarTuningTable["ATAPetyarbuilt"].parts["ATA2ProtectionWheelsFront"] = {
         protection = {"TireFrontLeft", "TireFrontRight"}, 
         install = {
             sound = "ATA2InstallWheelChain",
+            transmitFirstItemCondition = true,
             use = { 
                 ATAProtectionWheelsChain = 1,
             },
@@ -41,6 +42,7 @@ NewCarTuningTable["ATAPetyarbuilt"].parts["ATA2ProtectionWheelsFront"] = {
         },
         uninstall = {
             sound = "ATA2InstallWheelChain",
+            transmitFirstItemCondition = true,
             tools = {
                 primary = "Base.Wrench",
             },
