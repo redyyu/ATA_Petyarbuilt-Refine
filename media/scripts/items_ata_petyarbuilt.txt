@@ -10,6 +10,7 @@ module Autotsar
         Weight    =    0.1,
         Type    =    Literature,
         DisplayName    =    Autotsar Tuning - Ford Mustang,
+        DisplayCategory = Literature,
         Icon    =    ATATuningMagUniverseIcon,
         TeachedRecipes  =   Basic Tuning;ATAPetyarbuiltRecipes,
         ReplaceOnUse    =   ATAPetyarbuiltTuningMag,
