@@ -69,7 +69,7 @@ NewCarTuningTable["ATAPetyarbuilt"].parts["ATA2ProtectionRearWheels"] = {
                 MetalPipe = 6,
                 MetalBar = 6,
                 SheetMetal = 2,
-                Screws=4,
+                Screws=20,
                 BlowTorch=8,
             },
             tools = {
@@ -116,7 +116,7 @@ NewCarTuningTable["ATAPetyarbuilt"].parts["ATA2ProtectionSideLeft"] = {
                 MetalPipe = 4,
                 MetalBar = 8,
                 SheetMetal = 10,
-                Screws = 4,
+                Screws = 20,
                 BlowTorch = 10,
             },
             tools = {
@@ -169,7 +169,7 @@ NewCarTuningTable["ATAPetyarbuilt"].parts["ATA2ProtectionSideFront"] = {
                 MetalPipe = 2,
                 MetalBar = 8,
                 SheetMetal = 8,
-                Screws = 4,
+                Screws = 20,
                 BlowTorch = 10,
             },
             tools = {
@@ -214,7 +214,7 @@ NewCarTuningTable["ATAPetyarbuilt"].parts["ATA2ProtectionSideTop"] = {
             use = {
                 MetalPipe = 2,
                 SheetMetal = 8,
-                Screws=4,
+                Screws=20,
                 BlowTorch = 10,
             },
             tools = {
@@ -259,7 +259,7 @@ NewCarTuningTable["ATAPetyarbuilt"].parts["ATA2ProtectionGasTank"] = {
                 MetalPipe = 6,
                 MetalBar = 6,
                 SheetMetal = 2,
-                Screws=3,
+                Screws=15,
                 BlowTorch=8,
             },
             tools = {
@@ -303,7 +303,7 @@ NewCarTuningTable["ATAPetyarbuilt"].parts["ATA2ProtectionSleeper"] = {
                 MetalPipe = 10,
                 MetalBar = 3,
                 SheetMetal = 5,
-                Screws=4,
+                Screws=20,
                 BlowTorch=10,
             },
             tools = {
