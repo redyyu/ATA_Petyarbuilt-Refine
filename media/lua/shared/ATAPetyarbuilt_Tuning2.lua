@@ -267,7 +267,7 @@ NewCarTuningTable["ATAPetyarbuilt"].parts["ATA2ProtectionGasTank"] = {
                 primary = "Base.Wrench",
             },
             skills = {
-                MetalWelding = 5,
+                MetalWelding = 6,
             },
             requireInstalled = {"GasTank"},
             recipes = {"Intermediate Mechanics", carRecipe},
